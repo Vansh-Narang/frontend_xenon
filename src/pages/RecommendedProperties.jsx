@@ -34,7 +34,7 @@ const RecommendedProperties = () => {
             description: "A stunning beachfront property with ocean views.",
             price: 1200000,
             location: "Miami, FL",
-            image: "https://via.placeholder.com/300",
+            image: "https://picsum.photos/200/300",
             type: "sale"
         },
         {
@@ -43,7 +43,7 @@ const RecommendedProperties = () => {
             description: "A peaceful cabin in the mountains with modern amenities.",
             price: 500000,
             location: "Aspen, CO",
-            image: "https://via.placeholder.com/300",
+            image: "https://picsum.photos/200/300",
             type: "rent"
         },
         {
@@ -52,7 +52,7 @@ const RecommendedProperties = () => {
             description: "A spacious apartment in the heart of the city.",
             price: 900000,
             location: "New York, NY",
-            image: "https://via.placeholder.com/300",
+            image: "https://picsum.photos/200/300",
             type: "sale"
         }
     ];
