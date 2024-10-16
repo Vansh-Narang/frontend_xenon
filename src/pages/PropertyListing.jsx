@@ -42,7 +42,7 @@ const PropertyListing = () => {
                 {properties.map((property) => (
                     <div key={property._id} className="bg-white rounded-lg shadow-md p-6">
                         <img
-                            src={property.image}
+                            src={"https://picsum.photos/200/300"}
                             alt={property.title}
                             className="w-full h-48 object-cover rounded-lg"
                         />
