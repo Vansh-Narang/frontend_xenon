@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# XenonStack Fullstack Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
 
-## Available Scripts
+## Overview
+XenonStack is a fullstack application designed for vacation homes and rentals.
 
-In the project directory, you can run:
+## Features
+- User authentication (login/signup)
+- Property listing and browsing
+- Recommendations based on user history (Dummy data used for now)
+- Responsive design
 
-### `npm start`
+## Technologies Used
+- *Frontend:* React, React Router, Tailwind CSS
+- *Backend:* Express, Node.js
+- *Database:* MongoDB
+- *Other:* Axios for API calls, JWT for authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Getting Started
+To get a local copy up and running, follow these steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Clone the repository:
+   bash
+   git clone https://github.com/Vansh-Narang/xenonstack_fullstack.git
 
-### `npm test`
+2. Navigate to the project directory: 
+   bash 
+   cd xenonstack_fullstack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. # For frontend and backend respectively
+    bash
+   cd frontend
+   npm install
 
-### `npm run build`
+    cd backend
+    npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+4. If env file not exist Create a .env file in the server directory and add necessary env variables in it.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. 
+   bash 
+   cd backend
+   nodemon
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+6. ```bash 
+   cd frontend
+   npm start
 
-### `npm run eject`
+7. Visit http://localhost:3000 to view the application in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
+- User Registration/Login: Users can create an account or log in to access personalized features.
+- Property Browsing: Navigate through various property listings to find your ideal vacation home.
+- View Recommendations: Check out the recommendations based on your browsing history.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![image](https://github.com/user-attachments/assets/72aaba8c-ac1e-4565-9afe-27acad51df08)
 
-## Learn More
+![image](https://github.com/user-attachments/assets/e7874dc5-5dbb-48e4-ae61-dae379b1709d)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![image](https://github.com/user-attachments/assets/91af4f60-6ae7-4082-bc6c-4e5afd255459)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/user-attachments/assets/eddf82cf-640b-4134-a11a-6a2202902c0d)
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/user-attachments/assets/6433257e-ad6f-41af-89a8-181b5d0cacb4)
